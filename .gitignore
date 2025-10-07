@@ -1,0 +1,16 @@
+echo "
+# Environment + credentials
+.env
+service_account.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs / cache
+grading_log.csv
+*.log
+
+# System
+.DS_Store
+" > .gitignore
